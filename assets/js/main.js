@@ -681,7 +681,7 @@ $( document ).ready(function() {
 
     
     for(var i = 0; i < notesData.length;i++){
-    	imagePath = '<img src="/assets/images/'+notesData[i].imageName+'" alt="" title="">';
+    	imagePath = '<img src="/numismatics/assets/images/'+notesData[i].imageName+'" alt="" title="">';
     	imagePrice = notesData[i].price;
     	productCode = notesData[i].id;
     	imagetitle = notesData[i].title;
