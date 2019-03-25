@@ -2580,7 +2580,7 @@ body {
 
 
 @media (max-width: 767px) {
-  .mbr-gallery .wrapper-shop-items{
+  .mbr-gallery .wrapper-shop-items #notes-section{
     margin-top: 690px;
   }
   #parent-nav #nav-tab .nav-link span{
