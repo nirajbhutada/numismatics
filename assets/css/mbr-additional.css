@@ -2562,7 +2562,7 @@ body {
 #nav-artist .cid-rbb39CwPuR {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("/numismatics/assets/images/banner.jpeg");
+  background-image: url("/numismatics/assets/images/banner2.jpeg");
 }
 #nav-photography .cid-rbb39CwPuR {
   padding-top: 120px;
@@ -2604,7 +2604,7 @@ body {
     font-size: 15px;
   }
   #parent-nav #nav-tab{
-/*     margin-left: 13px; */
+    /*margin-left: 13px;*/
   }
   #parent-nav #nav-tab .nav-link:not(:first-child) {
       width:28%;
