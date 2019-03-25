@@ -751,7 +751,7 @@ var PhotographyData = [
     "title": "photography",
     "price":"Contact For Price",
     "tags" : "photography",
-    "imageName":"/photography/photo-4.jpg"
+    "imageName":"/photography/photo-4.JPG"
   },
   {
     "albumId": 1,
@@ -759,7 +759,7 @@ var PhotographyData = [
     "title": "photography",
     "price":"Contact For Price",
     "tags" : "photography",
-    "imageName":"/photography/photo-5.jpg"
+    "imageName":"/photography/photo-5.JPG"
   },
   {
     "albumId": 1,
@@ -767,7 +767,7 @@ var PhotographyData = [
     "title": "photography",
     "price":"Contact For Price",
     "tags" : "photography",
-    "imageName":"/photography/photo-6.jpg"
+    "imageName":"/photography/photo-6.JPG"
   },
   {
     "albumId": 1,
@@ -775,7 +775,7 @@ var PhotographyData = [
     "title": "photography",
     "price":"Contact For Price",
     "tags" : "photography",
-    "imageName":"/photography/photo-7.jpg"
+    "imageName":"/photography/photo-7.JPG"
   },
   {
     "albumId": 1,
@@ -783,7 +783,7 @@ var PhotographyData = [
     "title": "photography",
     "price":"Contact For Price",
     "tags" : "photography",
-    "imageName":"/photography/photo-8.jpg"
+    "imageName":"/photography/photo-8.JPG"
   }
 ]
 
