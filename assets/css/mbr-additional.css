@@ -2604,7 +2604,7 @@ body {
     font-size: 15px;
   }
   #parent-nav #nav-tab{
-    margin-left: 13px;
+/*     margin-left: 13px; */
   }
   #parent-nav #nav-tab .nav-link:not(:first-child) {
       width:28%;
