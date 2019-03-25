@@ -2567,12 +2567,14 @@ body {
 #nav-photography .cid-rbb39CwPuR {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("/numismatics/assets/images/photography/photo-5.JPG");
+  background-image: url("/numismatics/assets/images/photography/photo-5.jpg");
 }
 
-#artist-section .img_wraper,#photography-section .img_wraper{
-  min-height: 450px;
+#artist-section .img_wraper{
   max-height: 450px;
+}
+#photography-section .img_wraper{
+  max-height: 350px;
 }
 #artist-section .img_wraper img,#photography-section .img_wraper img{
   max-height:auto;
