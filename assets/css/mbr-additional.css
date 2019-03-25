@@ -1008,9 +1008,7 @@ a.text-black:focus {
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
 }
-.nav-tabs .nav-link {
-  border-radius: 100px !important;
-}
+
 .btn-form {
   border-radius: 0;
 }
@@ -1628,7 +1626,7 @@ body {
     left: -1rem;
   }
 }
-.cid-rbb39CwPuR {
+#nav-numismatics .cid-rbb39CwPuR {
   padding-top: 120px;
   padding-bottom: 120px;
   background-image: url("/numismatics/assets/images/786/786-10.jpeg");
@@ -2331,7 +2329,7 @@ body {
 .cid-rbaKgiAJ5r {
   padding-top: 75px;
   padding-bottom: 75px;
-  background-image: url("../HTML Bootstrap eCommerce Template_files/kristina-tripkovic-604027-unsplash-2000x1333.jpg");
+  /*background-image: url("../HTML Bootstrap eCommerce Template_files/kristina-tripkovic-604027-unsplash-2000x1333.jpg");*/
 }
 .cid-rbaKgiAJ5r .container-fluid {
   padding: 0 3rem;
@@ -2513,7 +2511,7 @@ body {
   min-height: 165px;
   max-height: 165px;
 }
-.img_wraper img{
+#notes-section .img_wraper img{
     max-height: 165px;
 }
 .mbr-gallery-item{
@@ -2528,14 +2526,85 @@ body {
   font-size: 16px;
 }
 
+
+#parent-nav{
+  border-bottom: 2px solid #8B5742;
+  background-color: #F6F1EF;
+  background: url(/numismatics/assets/images/banner1.jpeg) no-repeat;
+  background-size:100%;
+}
+#parent-nav #nav-tab{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 500px;
+  border-bottom:0;
+}
+#parent-nav #nav-tab .nav-link{
+  color: #EACBBE;
+  padding: 20px 0;
+  width: 33.33%;
+}
+
+#parent-nav #nav-tab .nav-link.active{
+  color: #8B5742;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  border:2px solid;
+  border-color: #8B5742 #8B5742 #fff;
+}
+.nav-tabs .nav-link:not(.active):focus, .nav-tabs .nav-link:not(.active):hover{
+  border: 0;
+}
+.nav-tabs .nav-item{
+  margin-bottom:-2px;
+}
+#nav-artist .cid-rbb39CwPuR {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("/numismatics/assets/images/banner.jpeg");
+}
+#nav-photography .cid-rbb39CwPuR {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("/numismatics/assets/images/photography/photo-5.jpg");
+}
+
+#artist-section .img_wraper,#photography-section .img_wraper{
+  min-height: 450px;
+  max-height: 450px;
+}
+#artist-section .img_wraper img,#photography-section .img_wraper img{
+  max-height:auto;
+}
+
+
 @media (max-width: 767px) {
   .mbr-gallery .wrapper-shop-items{
     margin-top: 690px;
+  }
+  #parent-nav #nav-tab .nav-link span{
+    vertical-align: sub;
+    line-height: 10px;
   }
   .cid-rbaMy1tJOl .mbr-shop .sidebar,.mbr-gallery .sidebar{
     position: absolute;
     top: -115px;
     right: 0;
     left: 0;
+  }
+  #parent-nav #nav-tab .nav-link{
+    max-width: 36%;
+    width:36%;
+    word-break: break-word;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 15px;
+  }
+  #parent-nav #nav-tab{
+    margin-left: 13px;
+  }
+  #parent-nav #nav-tab .nav-link:not(:first-child) {
+      width:28%;
   }
 }
