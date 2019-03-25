@@ -665,9 +665,135 @@ var notesData = [
   }
 ]
 
+//artist section
+var artistData = [
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "Doodle",
+    "price":"Contact For Price",
+    "tags" : "Doodle",
+    "imageName":"/artist/doodle-2.jpeg"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "Doodle",
+    "price":"Contact For Price",
+    "tags" : "Doodle",
+    "imageName":"/artist/doodle-1.jpeg"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "Doodle",
+    "price":"Contact For Price",
+    "tags" : "Doodle",
+    "imageName":"/artist/doodle-3.jpg"
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "Paintings",
+    "price":"Contact For Price",
+    "tags" : "Paintings",
+    "imageName":"/artist/painting-1.jpeg"
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "Paintings",
+    "price":"Contact For Price",
+    "tags" : "Paintings",
+    "imageName":"/artist/painting-2.jpg"
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+    "title": "Paintings",
+    "price":"Contact For Price",
+    "tags" : "Paintings",
+    "imageName":"/artist/painting-3.jpg"
+  }
+]
+
+
+
+//Photography section
+var PhotographyData = [
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "photography",
+    "price":"Contact For Price",
+    "tags" : "photography",
+    "imageName":"/photography/photo-1.jpg"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "photography",
+    "price":"Contact For Price",
+    "tags" : "photography",
+    "imageName":"/photography/photo-2.jpg"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "photography",
+    "price":"Contact For Price",
+    "tags" : "photography",
+    "imageName":"/photography/photo-3.jpg"
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "photography",
+    "price":"Contact For Price",
+    "tags" : "photography",
+    "imageName":"/photography/photo-4.jpg"
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "photography",
+    "price":"Contact For Price",
+    "tags" : "photography",
+    "imageName":"/photography/photo-5.jpg"
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+    "title": "photography",
+    "price":"Contact For Price",
+    "tags" : "photography",
+    "imageName":"/photography/photo-6.jpg"
+  },
+  {
+    "albumId": 1,
+    "id": 7,
+    "title": "photography",
+    "price":"Contact For Price",
+    "tags" : "photography",
+    "imageName":"/photography/photo-7.jpg"
+  },
+  {
+    "albumId": 1,
+    "id": 8,
+    "title": "photography",
+    "price":"Contact For Price",
+    "tags" : "photography",
+    "imageName":"/photography/photo-8.jpg"
+  }
+]
+
+
+
+
 $( document ).ready(function() {
-    var targetedSection = $('#notes-section');
-    var mainContent = '';
+    //note section
+    var targetedSectionNotes = $('#notes-section');
+    var mainContentNotes = '';
 
     //dynamic elements 
     var imageName = '';
@@ -675,7 +801,7 @@ $( document ).ready(function() {
     var imagePrice = '';
     var productCode = '';
     var imagetitle = '';
-    var eachElem = '';
+    var eachElemNotes = '';
     var initialEachElem = '<div class="mbr-gallery-item" data-tags="Jam" data-slide-to="0" data-seller="false" data-price="9"><div class="item_overlay" data-toggle="modal"></div><div class="galleryItem" data-toggle="modal"><div class="style_overlay"></div><div class="img_wraper">'+imagePath+'</div><span class="onsale mbr-fonts-style display-7" data-onsale="false" style="display: none;">-50%</span><div class="sidebar_wraper"><h4 class="item-title mbr-fonts-style mbr-text display-5">'+imagetitle+'</h4><div class="price-block"><span class="shop-item-price mbr-fonts-style display-5">Rs. '+imagePrice+'/-</span><div class="card-description">It is a nice item to buy.<br>Add some info here.<br><br>Product code: <strong>'+productCode+'</strong></div></div></div></div>';
 
 
@@ -686,12 +812,49 @@ $( document ).ready(function() {
     	productCode = notesData[i].id;
     	imagetitle = notesData[i].title;
     	tags = notesData[i].tags;
-    	eachElem = '<div class="mbr-gallery-item" data-tags="'+tags+'" data-slide-to="'+i+'" data-seller="false" data-price="'+imagePrice+'"><div class="item_overlay" data-toggle="modal"></div><div class="galleryItem" data-toggle="modal"><div class="style_overlay"></div><div class="img_wraper">'+imagePath+'</div><span class="onsale mbr-fonts-style display-7" data-onsale="false" style="display: none;">-50%</span><div class="sidebar_wraper"><h4 class="item-title mbr-fonts-style mbr-text display-5">'+imagetitle+'</h4><div class="price-block"><span class="shop-item-price mbr-fonts-style display-5">Rs. '+imagePrice+'</span><div class="card-description">It is a nice item to buy.<br>Add some info here.<br><br>Product code: <strong>'+productCode+'</strong></div></div></div></div></div>'
-	    mainContent += eachElem;
+    	eachElemNotes = '<div class="mbr-gallery-item" data-tags="'+tags+'" data-slide-to="'+i+'" data-seller="false" data-price="'+imagePrice+'"><div class="item_overlay" data-toggle="modal"></div><div class="galleryItem" data-toggle="modal"><div class="style_overlay"></div><div class="img_wraper">'+imagePath+'</div><span class="onsale mbr-fonts-style display-7" data-onsale="false" style="display: none;">-50%</span><div class="sidebar_wraper"><h4 class="item-title mbr-fonts-style mbr-text display-5">'+imagetitle+'</h4><div class="price-block"><span class="shop-item-price mbr-fonts-style display-5">Rs. '+imagePrice+'</span><div class="card-description">It is a nice item to buy.<br>Add some info here.<br><br>Product code: <strong>'+productCode+'</strong></div></div></div></div></div>'
+	    mainContentNotes += eachElemNotes;
 
     }
-    $(targetedSection).append(mainContent);
+    $(targetedSectionNotes).append(mainContentNotes);
+    //-----------------------------------------------------------------------------------------------//
 
+    //artist section
+    var targetedSectionArtist = $('#artist-section');
+    var eachElemArtist = '';
+    var mainContentArtist = '';
+
+    for(var i = 0; i < artistData.length;i++){
+      imagePath = '<img src="/numismatics/assets/images/'+artistData[i].imageName+'" alt="" title="">';
+
+      eachElemArtist = '<div class="mbr-gallery-item" data-tags="'+artistData[i].tags+'" data-slide-to="'+i+'" data-seller="false" data-price="'+artistData[i].price+'"><div class="item_overlay" data-toggle="modal"></div><div class="galleryItem" data-toggle="modal"><div class="style_overlay"></div><div class="img_wraper">'+imagePath+'</div><span class="onsale mbr-fonts-style display-7" data-onsale="false" style="display: none;">-50%</span><div class="sidebar_wraper"><h4 class="item-title mbr-fonts-style mbr-text display-5">'+artistData[i].title+'</h4><div class="price-block"><span class="shop-item-price mbr-fonts-style display-5">Rs. '+artistData[i].price+'</span><div class="card-description">It is a nice item to buy.<br>Add some info here.<br><br>Product code: <strong>'+artistData[i].id+'</strong></div></div></div></div></div>'
+      mainContentArtist += eachElemArtist;
+
+    }
+    $(targetedSectionArtist).append(mainContentArtist);
+
+
+    //-----------------------------------------------------------------------------------------------//
+
+    //Photography section
+    var targetedSectionphotography = $('#photography-section');
+    var eachElemphotography = '';
+    var mainContentphotography = '';
+
+    for(var i = 0; i < PhotographyData.length;i++){
+      imagePath = '<img src="/numismatics/assets/images/'+PhotographyData[i].imageName+'" alt="" title="">';
+
+      eachElemphotography = '<div class="mbr-gallery-item" data-tags="'+PhotographyData[i].tags+'" data-slide-to="'+i+'" data-seller="false" data-price="'+PhotographyData[i].price+'"><div class="item_overlay" data-toggle="modal"></div><div class="galleryItem" data-toggle="modal"><div class="style_overlay"></div><div class="img_wraper">'+imagePath+'</div><span class="onsale mbr-fonts-style display-7" data-onsale="false" style="display: none;">-50%</span><div class="sidebar_wraper"><h4 class="item-title mbr-fonts-style mbr-text display-5">'+PhotographyData[i].title+'</h4><div class="price-block"><span class="shop-item-price mbr-fonts-style display-5">Rs. '+PhotographyData[i].price+'</span><div class="card-description">It is a nice item to buy.<br>Add some info here.<br><br>Product code: <strong>'+PhotographyData[i].id+'</strong></div></div></div></div></div>'
+      mainContentphotography += eachElemphotography;
+
+    }
+    $(targetedSectionphotography).append(mainContentphotography);
+
+    $('img').mousedown(function (e) {
+      if(e.button == 2) { // right click
+        return false; // do nothing!
+      }
+    })
 
 
     // When the user scrolls down 20px from the top of the document, show the button
@@ -710,4 +873,5 @@ $( document ).ready(function() {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     })
+
 });
