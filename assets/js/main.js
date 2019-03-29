@@ -4,7 +4,7 @@ var notesData = [
     "id": 1,
     "title": "786 notes",
     "price":200,
-    "tags" : "786",
+    "tags" : "786,1,old",
     "imageName":"/786/786-1.jpeg"
   },
   {
@@ -12,7 +12,7 @@ var notesData = [
     "id": 2,
     "title": "786 notes",
     "price":300,
-    "tags" : "786",
+    "tags" : "786,2,old",
     "imageName":"/786/786-2.jpeg"
   },
   {
@@ -20,7 +20,7 @@ var notesData = [
     "id": 3,
     "title": "786 notes",
     "price":"750/bundle",
-    "tags" : "786",
+    "tags" : "786,5,bundle,old",
     "imageName":"/786/786-5-b.jpeg"
   },
   {
@@ -28,7 +28,7 @@ var notesData = [
     "id": 4,
     "title": "786 notes",
     "price":2700,
-    "tags" : "786",
+    "tags" : "786,10,bundle,old",
     "imageName":"/786/786-10-b.jpeg"
   },
   {
@@ -36,7 +36,7 @@ var notesData = [
     "id": 5,
     "title": "786 notes",
     "price":"30/note",
-    "tags" : "786",
+    "tags" : "786,10,old",
     "imageName":"/786/786-10-old.jpeg"
   },
   {
@@ -44,7 +44,7 @@ var notesData = [
     "id": 6,
     "title": "786 notes",
     "price":"50/note",
-    "tags" : "786",
+    "tags" : "786,20,old",
     "imageName":"/786/786-20.jpeg"
   },
   {
@@ -52,7 +52,7 @@ var notesData = [
     "id": 7,
     "title": "786 notes",
     "price":"999",
-    "tags" : "786",
+    "tags" : "786,20,708060,old",
     "imageName":"786/786-20-0.jpeg"
   },
   {
@@ -60,7 +60,7 @@ var notesData = [
     "id": 8,
     "title": "786 notes",
     "price":"200/note",
-    "tags" : "786",
+    "tags" : "786,50,old",
     "imageName":"/786/786-50.jpeg"
   },
   {
@@ -68,7 +68,7 @@ var notesData = [
     "id": 9,
     "title": "786 notes",
     "price":"250",
-    "tags" : "786",
+    "tags" : "786,100,old",
     "imageName":"786/786-100.jpeg"
   },
   {
@@ -76,7 +76,7 @@ var notesData = [
     "id": 10,
     "title": "786 notes",
     "price":"300/note",
-    "tags" : "786",
+    "tags" : "786,200,new",
     "imageName":"/786/786-200.jpeg"
   },
   {
@@ -84,7 +84,7 @@ var notesData = [
     "id": 11,
     "title": "786 notes",
     "price":800,
-    "tags" : "786",
+    "tags" : "786,200,double,new",
     "imageName":"/786/786-200-2.jpeg"
   },
   {
@@ -92,7 +92,7 @@ var notesData = [
     "id": 12,
     "title": "786 notes",
     "price":"25/note",
-    "tags" : "786",
+    "tags" : "786,10,new",
     "imageName":"/786/786-10.jpeg"
   },
   {
@@ -100,7 +100,7 @@ var notesData = [
     "id": 13,
     "title": "786 notes",
     "price":"60",
-    "tags" : "786",
+    "tags" : "786,five,5,new",
     "imageName":"/786/786-5-n.jpg"
   },
   {
@@ -108,7 +108,7 @@ var notesData = [
     "id": 14,
     "title": "786 notes",
     "price":"60",
-    "tags" : "786",
+    "tags" : "786,5,old",
     "imageName":"/786/786-5-o.jpg"
   },
   {
@@ -116,7 +116,7 @@ var notesData = [
     "id": 15,
     "title": "786 notes",
     "price":"50",
-    "tags" : "786",
+    "tags" : "786,10",
     "imageName":"/786/786-10.jpg"
   },
   {
@@ -124,7 +124,7 @@ var notesData = [
     "id": 16,
     "title": "786 notes",
     "price":"800",
-    "tags" : "786",
+    "tags" : "786,500",
     "imageName":"/786/786-500-o.jpg"
   },
   {
@@ -132,7 +132,7 @@ var notesData = [
     "id": 17,
     "title": "786 notes",
     "price":"250",
-    "tags" : "786",
+    "tags" : "786,100",
     "imageName":"/786/780006-100.jpg"
   },
   {
@@ -140,7 +140,7 @@ var notesData = [
     "id": 18,
     "title": "New Rs.1/- note with star in number",
     "price":"50/note",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,1,new",
     "imageName":"/starnotes/star-1-n.jpg"
   },
   {
@@ -148,7 +148,7 @@ var notesData = [
     "id": 19,
     "title": "New Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,10,new",
     "imageName":"/starnotes/star-10-new.jpg"
   },
   {
@@ -156,7 +156,7 @@ var notesData = [
     "id": 20,
     "title": "New Rs.50/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,50,new",
     "imageName":"/starnotes/star-50-new.jpg"
   },
   {
@@ -164,7 +164,7 @@ var notesData = [
     "id": 21,
     "title": "New Rs.50/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,200,new",
     "imageName":"/starnotes/star-200-new.jpg"
   },
    {
@@ -172,7 +172,7 @@ var notesData = [
     "id": 22,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,10",
     "imageName":"/starnotes/IMG_20190324_145403.jpg"
   },
    {
@@ -180,7 +180,7 @@ var notesData = [
     "id": 23,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,10",
     "imageName":"/starnotes/IMG_20190324_145421.jpg"
   },
    {
@@ -188,7 +188,7 @@ var notesData = [
     "id": 24,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,10",
     "imageName":"/starnotes/IMG_20190324_145452.jpg"
   },
    {
@@ -196,7 +196,7 @@ var notesData = [
     "id": 25,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,10",
     "imageName":"/starnotes/IMG_20190324_145510.jpg"
   },
    {
@@ -204,7 +204,7 @@ var notesData = [
     "id": 26,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,10",
     "imageName":"/starnotes/IMG_20190324_145635.jpg"
   },
    {
@@ -212,7 +212,7 @@ var notesData = [
     "id": 27,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,10",
     "imageName":"/starnotes/IMG_20190324_145657.jpg"
   },
    {
@@ -220,7 +220,7 @@ var notesData = [
     "id": 28,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,10",
     "imageName":"/starnotes/IMG_20190324_145842.jpg"
   },
    {
@@ -228,7 +228,7 @@ var notesData = [
     "id": 29,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,10",
     "imageName":"/starnotes/IMG_20190324_145917.jpg"
   },
    {
@@ -236,7 +236,7 @@ var notesData = [
     "id": 30,
     "title": "Rs.100/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,100",
     "imageName":"/starnotes/IMG_20190324_150241.jpg"
   },
    {
@@ -244,7 +244,7 @@ var notesData = [
     "id": 31,
     "title": "Rs.50/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,50",
     "imageName":"/starnotes/IMG_20190324_150443.jpg"
   },
    {
@@ -252,7 +252,7 @@ var notesData = [
     "id": 32,
     "title": "Rs.20/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,20",
     "imageName":"/starnotes/IMG_20190324_150558.jpg"
   },
    {
@@ -260,7 +260,7 @@ var notesData = [
     "id": 33,
     "title": "New Rs.20/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star(*) Notes",
+    "tags" : "star(*) Notes,500",
     "imageName":"/starnotes/IMG_20190324_150654.jpg"
   },
    {
@@ -268,7 +268,7 @@ var notesData = [
     "id": 34,
     "title": "Notes with date of birth",
     "price":"Contact for Price",
-    "tags" : "Birthday Notes",
+    "tags" : "Birthday Notes,50",
     "imageName":"/birthdaynotes/070903-50.jpg"
   },
    {
@@ -276,7 +276,7 @@ var notesData = [
     "id": 35,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,20,defect",
     "imageName":"/mistakenotes/m-color-20.jpg"
   },
    {
@@ -284,7 +284,7 @@ var notesData = [
     "id": 36,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,100,defect",
     "imageName":"/mistakenotes/m-number-100.jpg"
   },
    {
@@ -292,7 +292,7 @@ var notesData = [
     "id": 37,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,100,defect,number print",
     "imageName":"/mistakenotes/m-number-100-1.jpg"
   },
    {
@@ -300,7 +300,7 @@ var notesData = [
     "id": 38,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,10,defect,number print",
     "imageName":"/mistakenotes/m-print-10.jpg"
   },
    {
@@ -308,7 +308,7 @@ var notesData = [
     "id": 39,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,10,defect",
     "imageName":"/mistakenotes/m-print-10-1.jpg"
   },
    {
@@ -316,7 +316,7 @@ var notesData = [
     "id": 40,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,20,defect",
     "imageName":"/mistakenotes/m-print-20.jpg"
   },
    {
@@ -324,7 +324,7 @@ var notesData = [
     "id": 41,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,20,defect",
     "imageName":"/mistakenotes/m-print-20-1.jpg"
   },
    {
@@ -332,7 +332,7 @@ var notesData = [
     "id": 42,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,50,defect",
     "imageName":"/mistakenotes/m-print-50.jpg"
   },
    {
@@ -340,7 +340,7 @@ var notesData = [
     "id": 43,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,100,defect",
     "imageName":"/mistakenotes/m-print-100.jpg"
   },
    {
@@ -348,7 +348,7 @@ var notesData = [
     "id": 44,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,defect",
     "imageName":"/mistakenotes/m-print-100-1.jpg"
   },
    {
@@ -356,7 +356,7 @@ var notesData = [
     "id": 44,
     "title": "Notes with mistake in number or printing",
     "price":"Contact for Price",
-    "tags" : "Mistake Notes",
+    "tags" : "Mistake Notes,100,defect",
     "imageName":"/mistakenotes/m-print-100-2.jpg"
   },
    {
@@ -364,7 +364,7 @@ var notesData = [
     "id": 45,
     "title": "Old Notes",
     "price":"Contact for Price",
-    "tags" : "Old Notes",
+    "tags" : "Old Notes,50,defect,old",
     "imageName":"/oldnotes/old-50.jpg"
   },
    {
@@ -372,7 +372,7 @@ var notesData = [
     "id": 46,
     "title": "Old Notes",
     "price":"Contact for Price",
-    "tags" : "Old Notes",
+    "tags" : "Old Notes,50,old,defect",
     "imageName":"/oldnotes/old-50-1.jpg"
   },
    {
@@ -380,7 +380,7 @@ var notesData = [
     "id": 47,
     "title": "Special Notes",
     "price":"Contact for Price",
-    "tags" : "Special Notes",
+    "tags" : "Special Notes,10",
     "imageName":"/specialnotes/IMG_20190324_150931.jpg"
   },
    {
@@ -388,7 +388,7 @@ var notesData = [
     "id": 48,
     "title": "Special Notes",
     "price":"Contact for Price",
-    "tags" : "Special Notes",
+    "tags" : "Special Notes,10,print,defect",
     "imageName":"/specialnotes/special-print-10.jpg"
   },
    {
@@ -396,7 +396,7 @@ var notesData = [
     "id": 49,
     "title": "Special Notes",
     "price":"Contact for Price",
-    "tags" : "Special Notes",
+    "tags" : "Special Notes,seven digit,100",
     "imageName":"/specialnotes/special-seven-digit-100.jpg"
   },
    {
@@ -404,7 +404,7 @@ var notesData = [
     "id": 50,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,new,double,repeat",
     "imageName":"/specialnumber/IMG_20190324_143858.jpg"
   },
    {
@@ -412,7 +412,7 @@ var notesData = [
     "id": 51,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,new,series numbers",
     "imageName":"/specialnumber/IMG_20190324_144012.jpg"
   },
    {
@@ -420,7 +420,7 @@ var notesData = [
     "id": 52,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,new,series numbers,00",
     "imageName":"/specialnumber/IMG_20190324_144104.jpg"
   },
    {
@@ -428,7 +428,7 @@ var notesData = [
     "id": 53,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,new,series numbers,00",
     "imageName":"/specialnumber/IMG_20190324_144218.jpg"
   },
    {
@@ -436,7 +436,7 @@ var notesData = [
     "id": 54,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,new,series numbers,777,222,444",
     "imageName":"/specialnumber/IMG_20190324_144319.jpg"
   },
    {
@@ -444,7 +444,7 @@ var notesData = [
     "id": 55,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,new,series numbers,00",
     "imageName":"/specialnumber/IMG_20190324_144436.jpg"
   },
    {
@@ -452,7 +452,7 @@ var notesData = [
     "id": 56,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,20,new,series numbers",
     "imageName":"/specialnumber/IMG_20190324_144626.jpg"
   },
    {
@@ -460,7 +460,7 @@ var notesData = [
     "id": 57,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,20,new,series numbers,0000",
     "imageName":"/specialnumber/IMG_20190324_144633.jpg"
   },
    {
@@ -468,7 +468,7 @@ var notesData = [
     "id": 58,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,50,new,series numbers,400500",
     "imageName":"/specialnumber/IMG_20190324_144840.jpg"
   },
    {
@@ -476,7 +476,7 @@ var notesData = [
     "id": 59,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,20,new,series numbers,777",
     "imageName":"/specialnumber/IMG_20190324_150116.jpg"
   },
    {
@@ -484,7 +484,7 @@ var notesData = [
     "id": 60,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,new,series numbers,2345",
     "imageName":"/specialnumber/IMG_20190324_150512.jpg"
   },
    {
@@ -492,7 +492,7 @@ var notesData = [
     "id": 61,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,new,series numbers,888,777",
     "imageName":"/specialnumber/IMG_20190324_151244.jpg"
   },
    {
@@ -500,7 +500,7 @@ var notesData = [
     "id": 62,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,new,series numbers,888",
     "imageName":"/specialnumber/IMG_20190324_151250.jpg"
   },
    {
@@ -508,7 +508,7 @@ var notesData = [
     "id": 63,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,100,new,series numbers,000001",
     "imageName":"/specialnumber/sn-000001-100.jpg"
   },
    {
@@ -516,7 +516,7 @@ var notesData = [
     "id": 64,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,200,new,series numbers,000002",
     "imageName":"/specialnumber/sn-000002-200.jpg"
   },
    {
@@ -524,7 +524,7 @@ var notesData = [
     "id": 65,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,2000,new,series numbers,001000",
     "imageName":"/specialnumber/sn-001000-2000.jpg"
   },
    {
@@ -532,7 +532,7 @@ var notesData = [
     "id": 66,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,old,series numbers,001001",
     "imageName":"/specialnumber/sn-001001-10.jpg"
   },
    {
@@ -540,7 +540,7 @@ var notesData = [
     "id": 67,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,50,old,series numbers,005000",
     "imageName":"/specialnumber/sn-005000-50.jpg"
   },
    {
@@ -548,7 +548,7 @@ var notesData = [
     "id": 68,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,5,old,series numbers,006003",
     "imageName":"/specialnumber/sn-006003-5.jpg"
   },
    {
@@ -556,7 +556,7 @@ var notesData = [
     "id": 69,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,100,old,series numbers,010001",
     "imageName":"/specialnumber/sn-010001-100.jpg"
   },
    {
@@ -564,7 +564,7 @@ var notesData = [
     "id": 70,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,1000,old,series numbers,100000",
     "imageName":"/specialnumber/sn-100000-1000.jpg"
   },
    {
@@ -572,7 +572,7 @@ var notesData = [
     "id": 71,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,50,old,series numbers,100001",
     "imageName":"/specialnumber/sn-100001-50.jpg"
   },
    {
@@ -580,7 +580,7 @@ var notesData = [
     "id": 72,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,2000,new,series numbers,112233",
     "imageName":"/specialnumber/sn-112233-2000.jpg"
   },
    {
@@ -588,7 +588,7 @@ var notesData = [
     "id": 73,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,10,old,repeat numbers,242424",
     "imageName":"/specialnumber/sn-242424-10.jpg"
   },
    {
@@ -596,7 +596,7 @@ var notesData = [
     "id": 74,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,5,old,repeat numbers,333,888",
     "imageName":"/specialnumber/sn-333888-5.jpg"
   },
    {
@@ -604,7 +604,7 @@ var notesData = [
     "id": 75,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,500,new,repeat numbers,0000",
     "imageName":"/specialnumber/sn-390000-500.jpg"
   },
    {
@@ -612,7 +612,7 @@ var notesData = [
     "id": 76,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,500,new",
     "imageName":"/specialnumber/sn-456567-500.jpg"
   },
    {
@@ -620,7 +620,7 @@ var notesData = [
     "id": 77,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,50,old,repeat numbers,500000",
     "imageName":"/specialnumber/sn-500000-50.jpg"
   },
    {
@@ -628,7 +628,7 @@ var notesData = [
     "id": 78,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,100,old,repeat numbers,600000",
     "imageName":"/specialnumber/sn-600000-100.jpg"
   },
    {
@@ -636,7 +636,7 @@ var notesData = [
     "id": 79,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,50,old,repeat numbers,755555",
     "imageName":"/specialnumber/sn-755555-50.jpg"
   },
    {
@@ -644,7 +644,7 @@ var notesData = [
     "id": 80,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,50,old,repeat numbers,774433",
     "imageName":"/specialnumber/sn-774433-50.jpg"
   },
    {
@@ -652,7 +652,7 @@ var notesData = [
     "id": 81,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number",
+    "tags" : "Special Number,100,old,repeat numbers,00",
     "imageName":"/specialnumber/sn-840085-100.jpg"
   },
    {
@@ -660,7 +660,7 @@ var notesData = [
     "id": 82,
     "title": "Notes without flagprinted on it",
     "price":"Contact for Price",
-    "tags" : "Without Flag Notes",
+    "tags" : "Without Flag Notes,50,flag,old",
     "imageName":"/withoutflag/IMG_20190324_151050.jpg"
   }
 ]
