@@ -140,7 +140,7 @@ var notesData = [
     "id": 18,
     "title": "New Rs.1/- note with star in number",
     "price":"50/note",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/star-1-n.jpg"
   },
   {
@@ -148,7 +148,7 @@ var notesData = [
     "id": 19,
     "title": "New Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/star-10-new.jpg"
   },
   {
@@ -156,7 +156,7 @@ var notesData = [
     "id": 20,
     "title": "New Rs.50/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/star-50-new.jpg"
   },
   {
@@ -164,7 +164,7 @@ var notesData = [
     "id": 21,
     "title": "New Rs.50/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/star-200-new.jpg"
   },
    {
@@ -172,7 +172,7 @@ var notesData = [
     "id": 22,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_145403.jpg"
   },
    {
@@ -180,7 +180,7 @@ var notesData = [
     "id": 23,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_145421.jpg"
   },
    {
@@ -188,7 +188,7 @@ var notesData = [
     "id": 24,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_145452.jpg"
   },
    {
@@ -196,7 +196,7 @@ var notesData = [
     "id": 25,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_145510.jpg"
   },
    {
@@ -204,7 +204,7 @@ var notesData = [
     "id": 26,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_145635.jpg"
   },
    {
@@ -212,7 +212,7 @@ var notesData = [
     "id": 27,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_145657.jpg"
   },
    {
@@ -220,7 +220,7 @@ var notesData = [
     "id": 28,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_145842.jpg"
   },
    {
@@ -228,7 +228,7 @@ var notesData = [
     "id": 29,
     "title": "Rs.10/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_145917.jpg"
   },
    {
@@ -236,7 +236,7 @@ var notesData = [
     "id": 30,
     "title": "Rs.100/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_150241.jpg"
   },
    {
@@ -244,7 +244,7 @@ var notesData = [
     "id": 31,
     "title": "Rs.50/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_150443.jpg"
   },
    {
@@ -252,7 +252,7 @@ var notesData = [
     "id": 32,
     "title": "Rs.20/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_150558.jpg"
   },
    {
@@ -260,7 +260,7 @@ var notesData = [
     "id": 33,
     "title": "New Rs.20/- note with star in number",
     "price":"Contact for Price",
-    "tags" : "star Notes",
+    "tags" : "star(*) Notes",
     "imageName":"/starnotes/IMG_20190324_150654.jpg"
   },
    {
@@ -873,5 +873,30 @@ $( document ).ready(function() {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     })
+
+    function mySearchFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+    $("#myInput").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#notes-section .mbr-gallery-item").filter(function() {
+        $(this).toggle($(this).attr('data-tags').toLowerCase().indexOf(value) > -1)
+      });
+    });
 
 });

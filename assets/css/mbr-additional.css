@@ -2579,7 +2579,19 @@ body {
 #artist-section .img_wraper img,#photography-section .img_wraper img{
   max-height:auto;
 }
-
+.search-section{
+  padding: 25px;
+  margin: 0 auto;
+}
+.search-section input{
+  padding:15px;
+  width: 53%;
+}
+.search-section .search-container{
+  width:100%;
+  max-width:600px;
+  margin:0 auto;
+}
 
 @media (max-width: 767px) {
   .mbr-gallery .wrapper-shop-items #notes-section{
