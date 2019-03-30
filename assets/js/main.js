@@ -100,8 +100,8 @@ var notesData = [
     "id": 13,
     "title": "786 notes",
     "price":"60",
-    "tags" : "786,five,5,new",
-    "imageName":"/786/786-5-n.jpg"
+    "tags" : "786,five,5,old",
+    "imageName":"/786/786-5-o.jpg"
   },
   {
     "albumId": 1,
@@ -452,7 +452,7 @@ var notesData = [
     "id": 56,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number,20,new,series numbers",
+    "tags" : "Special Number,20,old,series numbers",
     "imageName":"/specialnumber/IMG_20190324_144626.jpg"
   },
    {
@@ -460,7 +460,7 @@ var notesData = [
     "id": 57,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number,20,new,series numbers,0000",
+    "tags" : "Special Number,20,old,series numbers,0000",
     "imageName":"/specialnumber/IMG_20190324_144633.jpg"
   },
    {
@@ -468,7 +468,7 @@ var notesData = [
     "id": 58,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number,50,new,series numbers,400500",
+    "tags" : "Special Number,50,old,series numbers,400500",
     "imageName":"/specialnumber/IMG_20190324_144840.jpg"
   },
    {
@@ -476,7 +476,7 @@ var notesData = [
     "id": 59,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number,20,new,series numbers,777",
+    "tags" : "Special Number,20,old,series numbers,777",
     "imageName":"/specialnumber/IMG_20190324_150116.jpg"
   },
    {
@@ -484,7 +484,7 @@ var notesData = [
     "id": 60,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number,10,new,series numbers,2345",
+    "tags" : "Special Number,10,old,series numbers,2345",
     "imageName":"/specialnumber/IMG_20190324_150512.jpg"
   },
    {
@@ -492,7 +492,7 @@ var notesData = [
     "id": 61,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number,10,new,series numbers,888,777",
+    "tags" : "Special Number,10,old,series numbers,888,777",
     "imageName":"/specialnumber/IMG_20190324_151244.jpg"
   },
    {
@@ -500,7 +500,7 @@ var notesData = [
     "id": 62,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number,10,new,series numbers,888",
+    "tags" : "Special Number,10,old,series numbers,888",
     "imageName":"/specialnumber/IMG_20190324_151250.jpg"
   },
    {
@@ -508,7 +508,7 @@ var notesData = [
     "id": 63,
     "title": "Notes with special numbers on it",
     "price":"Contact for Price",
-    "tags" : "Special Number,100,new,series numbers,000001",
+    "tags" : "Special Number,100,old,series numbers,000001",
     "imageName":"/specialnumber/sn-000001-100.jpg"
   },
    {
@@ -665,127 +665,6 @@ var notesData = [
   }
 ]
 
-//artist section
-var artistData = [
-  {
-    "albumId": 1,
-    "id": 1,
-    "title": "Doodle",
-    "price":"Contact For Price",
-    "tags" : "Doodle",
-    "imageName":"/artist/doodle-2.jpeg"
-  },
-  {
-    "albumId": 1,
-    "id": 2,
-    "title": "Doodle",
-    "price":"Contact For Price",
-    "tags" : "Doodle",
-    "imageName":"/artist/doodle-1.jpeg"
-  },
-  {
-    "albumId": 1,
-    "id": 3,
-    "title": "Doodle",
-    "price":"Contact For Price",
-    "tags" : "Doodle",
-    "imageName":"/artist/doodle-3.jpg"
-  },
-  {
-    "albumId": 1,
-    "id": 4,
-    "title": "Paintings",
-    "price":"Contact For Price",
-    "tags" : "Paintings",
-    "imageName":"/artist/painting-1.jpeg"
-  },
-  {
-    "albumId": 1,
-    "id": 5,
-    "title": "Paintings",
-    "price":"Contact For Price",
-    "tags" : "Paintings",
-    "imageName":"/artist/painting-2.jpg"
-  },
-  {
-    "albumId": 1,
-    "id": 6,
-    "title": "Paintings",
-    "price":"Contact For Price",
-    "tags" : "Paintings",
-    "imageName":"/artist/painting-3.jpg"
-  }
-]
-
-
-
-//Photography section
-var PhotographyData = [
-  {
-    "albumId": 1,
-    "id": 1,
-    "title": "photography",
-    "price":"Contact For Price",
-    "tags" : "photography",
-    "imageName":"/photography/photo-1.jpg"
-  },
-  {
-    "albumId": 1,
-    "id": 2,
-    "title": "photography",
-    "price":"Contact For Price",
-    "tags" : "photography",
-    "imageName":"/photography/photo-2.jpg"
-  },
-  {
-    "albumId": 1,
-    "id": 3,
-    "title": "photography",
-    "price":"Contact For Price",
-    "tags" : "photography",
-    "imageName":"/photography/photo-3.jpg"
-  },
-  {
-    "albumId": 1,
-    "id": 4,
-    "title": "photography",
-    "price":"Contact For Price",
-    "tags" : "photography",
-    "imageName":"/photography/photo-4.JPG"
-  },
-  {
-    "albumId": 1,
-    "id": 5,
-    "title": "photography",
-    "price":"Contact For Price",
-    "tags" : "photography",
-    "imageName":"/photography/photo-5.JPG"
-  },
-  {
-    "albumId": 1,
-    "id": 6,
-    "title": "photography",
-    "price":"Contact For Price",
-    "tags" : "photography",
-    "imageName":"/photography/photo-6.JPG"
-  },
-  {
-    "albumId": 1,
-    "id": 7,
-    "title": "photography",
-    "price":"Contact For Price",
-    "tags" : "photography",
-    "imageName":"/photography/photo-7.JPG"
-  },
-  {
-    "albumId": 1,
-    "id": 8,
-    "title": "photography",
-    "price":"Contact For Price",
-    "tags" : "photography",
-    "imageName":"/photography/photo-8.JPG"
-  }
-]
 
 
 
@@ -817,44 +696,7 @@ $( document ).ready(function() {
 
     }
     $(targetedSectionNotes).append(mainContentNotes);
-    //-----------------------------------------------------------------------------------------------//
-
-    //artist section
-    var targetedSectionArtist = $('#artist-section');
-    var eachElemArtist = '';
-    var mainContentArtist = '';
-
-    for(var i = 0; i < artistData.length;i++){
-      imagePath = '<img src="/numismatics/assets/images/'+artistData[i].imageName+'" alt="" title="">';
-
-      eachElemArtist = '<div class="mbr-gallery-item" data-tags="'+artistData[i].tags+'" data-slide-to="'+i+'" data-seller="false" data-price="'+artistData[i].price+'"><div class="item_overlay" data-toggle="modal"></div><div class="galleryItem" data-toggle="modal"><div class="style_overlay"></div><div class="img_wraper">'+imagePath+'</div><span class="onsale mbr-fonts-style display-7" data-onsale="false" style="display: none;">-50%</span><div class="sidebar_wraper"><h4 class="item-title mbr-fonts-style mbr-text display-5">'+artistData[i].title+'</h4><div class="price-block"><span class="shop-item-price mbr-fonts-style display-5">Rs. '+artistData[i].price+'</span><div class="card-description">It is a nice item to buy.<br>Add some info here.<br><br>Product code: <strong>'+artistData[i].id+'</strong></div></div></div></div></div>'
-      mainContentArtist += eachElemArtist;
-
-    }
-    $(targetedSectionArtist).append(mainContentArtist);
-
-
-    //-----------------------------------------------------------------------------------------------//
-
-    //Photography section
-    var targetedSectionphotography = $('#photography-section');
-    var eachElemphotography = '';
-    var mainContentphotography = '';
-
-    for(var i = 0; i < PhotographyData.length;i++){
-      imagePath = '<img src="/numismatics/assets/images/'+PhotographyData[i].imageName+'" alt="" title="">';
-
-      eachElemphotography = '<div class="mbr-gallery-item" data-tags="'+PhotographyData[i].tags+'" data-slide-to="'+i+'" data-seller="false" data-price="'+PhotographyData[i].price+'"><div class="item_overlay" data-toggle="modal"></div><div class="galleryItem" data-toggle="modal"><div class="style_overlay"></div><div class="img_wraper">'+imagePath+'</div><span class="onsale mbr-fonts-style display-7" data-onsale="false" style="display: none;">-50%</span><div class="sidebar_wraper"><h4 class="item-title mbr-fonts-style mbr-text display-5">'+PhotographyData[i].title+'</h4><div class="price-block"><span class="shop-item-price mbr-fonts-style display-5">Rs. '+PhotographyData[i].price+'</span><div class="card-description">It is a nice item to buy.<br>Add some info here.<br><br>Product code: <strong>'+PhotographyData[i].id+'</strong></div></div></div></div></div>'
-      mainContentphotography += eachElemphotography;
-
-    }
-    $(targetedSectionphotography).append(mainContentphotography);
-
-    $('img').mousedown(function (e) {
-      if(e.button == 2) { // right click
-        return false; // do nothing!
-      }
-    })
+    
 
 
     // When the user scrolls down 20px from the top of the document, show the button
