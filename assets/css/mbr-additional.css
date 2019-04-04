@@ -2642,12 +2642,21 @@ body {
   width: 500px;
   max-width: 500px;
 }
+.wrapper-shop-items{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
 @media (max-width: 462px) {
   .search-section input{
     /*width: 80%;*/
   }
 }
 @media (max-width: 767px) {
+  .cid-rbaMy1tJOl .mbr-shop .mbr-gallery-item{
+    width:100%;
+    max-width: 100%;
+  }
   .mbr-gallery .wrapper-shop-items #notes-section{
     /*margin-top: 690px;*/
   }
