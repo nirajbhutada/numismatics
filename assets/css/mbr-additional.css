@@ -1630,6 +1630,7 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
   background-image: url("/numismatics/assets/images/786/786-10.jpeg");
+  position: relative;
 }
 .cid-rbb39CwPuR .mbr-overlay {
   background: #fff9cc;
@@ -2583,11 +2584,14 @@ body {
   padding: 25px;
   margin: 0 auto;
   font-size: 16px;
+  border-bottom: 2px solid #666666;
+
 }
 .search-section input{
   padding:15px;
   width: 100%;
-  border:1px solid #000;
+  border:1px solid #b2b2b2;
+  border-radius: 35px;
 }
 .search-section .search-container{
   width:100%;
@@ -2603,6 +2607,40 @@ body {
 }
 .search-exampls{
   padding-top:10px;
+}
+.cid-rbaMy1tJOl .mbr-shop .mbr-gallery-item {
+  border: 2px solid #dbdbdb;
+  border-radius: 10px;
+  margin: 5px;
+  min-width:19%;
+  max-width:19%;
+}
+.mbr-gallery .mbr-gallery-item > div,.cid-rbaMy1tJOl .mbr-shop .mbr-gallery-item{
+  background-color: #f8f8f8;
+}
+#myBtn.whatsup-button{
+  display:block;
+  bottom: 90px;
+  background-color: #fff;
+  border: 1px solid #528881;
+  padding: 15px;
+  background: url(/numismatics/assets/images/whatsup1.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 63px;
+  height: 57px;
+  background-position: 0 0;
+  padding:0;
+}
+#myBtn.whatsup-button a{
+  width:100%;
+  height:100%;
+}
+.social-icon-content{
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  width: 500px;
+  max-width: 500px;
 }
 @media (max-width: 462px) {
   .search-section input{

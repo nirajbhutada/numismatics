@@ -740,5 +740,7 @@ $( document ).ready(function() {
         $(this).toggle($(this).attr('data-tags').toLowerCase().indexOf(value) > -1)
       });
     });
-
+    setTimeout(function(){
+      window.scrollTo(0,0);
+    },1000)
 });
